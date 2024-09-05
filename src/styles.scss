@@ -10,9 +10,8 @@
 
 body {
   font-family: "JetBrains Mono", sans-serif;
-  background: var(--dark-color);
   color: var(--light-color);
-  background-image: url(/assets/imgs/backgraund.png);
+  background: var(--dark-color) url(/assets/imgs/backgraund.png) center/cover no-repeat;
   height: 100dvh;
 }
 
@@ -64,6 +63,20 @@ body {
   line-height: 21px;
   font-family: "JetBrains Mono", sans-serif;
   color: var(--light-color);
+}
+
+.h4 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+}
+
+.regular {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 
