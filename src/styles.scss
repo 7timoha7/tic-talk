@@ -65,6 +65,41 @@ body {
   color: var(--light-color);
 }
 
+.tt-form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tt-form-label-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.tt-form-input {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  height: 33px;
+  background: none;
+  color: var(--light-color);
+
+  &:focus-visible {
+    outline: 1px solid var(--primary-color);
+  }
+}
+
+.tt-textarea {
+  height: 84px;
+  resize: none;
+}
+
+
 .h4 {
   font-size: 24px;
   font-style: normal;
@@ -78,5 +113,7 @@ body {
   font-weight: 400;
   line-height: 21px;
 }
+
+
 
 
